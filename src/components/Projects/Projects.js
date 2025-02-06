@@ -22,6 +22,39 @@ function Projects() {
         </p>
          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eKart}
+              isBlog={false}
+              title="eKart Project"
+              description="Discover an interactive tool that Discover a world of amazing products, all at your fingertips. Our e-commerce website offers a wide range of high-quality items, from the latest fashion trends and electronics to home essentials and unique gifts. We bring together a curated collection of brands and products to make your shopping experience enjoyable and hassle-free."
+              ghLink="https://github.com/nileshrawatp1/bhuppi-ecommerce"
+              demoLink="https://bhuppi-ecommerce.vercel.app"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eKart}
+              isBlog={false}
+              title="Food Recipe App"
+              description="FoodieFinds is a dynamic recipe app designed to inspire culinary creativity. Seamlessly search thousands of global dishes, from quick snacks to gourmet meals, powered by TheMealDB's comprehensive database. Discover step-by-step instructions, ingredient lists, and video tutorials for perfect results every time. The app features a clean, grid-based interface for browsing recipes, with intuitive filters for dietary preferences, cooking time, and difficulty. Cook, explore, and savor the joy of cooking with confidence!"
+              ghLink="https://github.com/nileshrawatp1/food-recipe-app"
+              demoLink="https://food-recipes-nilesh.vercel.app"
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={keyDrum}
+              isBlog={false}
+              title="Drum Kit"
+              description="Discover an interactive tool that instantly plays the drum from the specific keyboards keys press on the tab. You can listen and create the drump as per your choice. This project is created by just using HTML, CSS and javaScript. Feel free to send the feedback any case of any concerns."
+              ghLink="https://github.com/nileshrawatp1/JS-Drum-kit"
+              demoLink="https://nileshrawatp1.github.io/JS-Drum-kit/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={textconvertor}
@@ -62,28 +95,6 @@ function Projects() {
               description="Discover an interactive tool that instantly displays JavaScript event keycodes as you press any key on your keyboard. Enhance your web development skills with real-time keycode feedback and learn keyboard events effortlessly."
               ghLink="https://github.com/nileshrawatp1/keystroke-code"
               demoLink="https://keystroke-code.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={keyDrum}
-              isBlog={false}
-              title="Drum Kit"
-              description="Discover an interactive tool that instantly plays the drum from the specific keyboards keys press on the tab. You can listen and create the drump as per your choice. This project is created by just using HTML, CSS and javaScript. Feel free to send the feedback any case of any concerns."
-              ghLink="https://github.com/nileshrawatp1/JS-Drum-kit"
-              demoLink="https://nileshrawatp1.github.io/JS-Drum-kit/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eKart}
-              isBlog={false}
-              title="eKart Project"
-              description="Discover an interactive tool that Discover a world of amazing products, all at your fingertips. Our e-commerce website offers a wide range of high-quality items, from the latest fashion trends and electronics to home essentials and unique gifts. We bring together a curated collection of brands and products to make your shopping experience enjoyable and hassle-free."
-              ghLink="https://github.com/nileshrawatp1/bhuppi-ecommerce"
-              demoLink="https://bhuppi-ecommerce.vercel.app"
             />
           </Col>
 
