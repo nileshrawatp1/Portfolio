@@ -8,6 +8,7 @@ import codeEditor from "../../Assets/Projects/codeEditor.png";
 import keyStroke from "../../Assets/Projects/key-stroke.png";
 import keyDrum from "../../Assets/Projects/key-drum.png";
 import eKart from "../../Assets/Projects/eKart.png";
+import foodrecipe from "../../Assets/Projects/food-app.png";
 
 function Projects() {
   return (
@@ -24,23 +25,23 @@ function Projects() {
 
          <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={foodrecipe}
+              isBlog={false}
+              title="Food Recipe App"
+              description="FoodieFinds is a dynamic recipe app designed to inspire culinary creativity. Seamlessly search thousands of global dishes, from quick snacks to gourmet meals, powered by TheMealDB's comprehensive database. Discover step-by-step instructions, ingredient lists, and video tutorials for perfect results every time. The app features a clean, grid-based interface for browsing recipes, with intuitive filters for dietary preferences, cooking time, and difficulty. Cook, explore, and savor the joy of cooking with confidence!"
+              ghLink="https://github.com/nileshrawatp1/food-recipe-app"
+              demoLink="https://food-recipes-nilesh.vercel.app"
+            />
+          </Col>
+
+         <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={eKart}
               isBlog={false}
               title="eKart Project"
               description="Discover an interactive tool that Discover a world of amazing products, all at your fingertips. Our e-commerce website offers a wide range of high-quality items, from the latest fashion trends and electronics to home essentials and unique gifts. We bring together a curated collection of brands and products to make your shopping experience enjoyable and hassle-free."
               ghLink="https://github.com/nileshrawatp1/bhuppi-ecommerce"
               demoLink="https://bhuppi-ecommerce.vercel.app"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eKart}
-              isBlog={false}
-              title="Food Recipe App"
-              description="FoodieFinds is a dynamic recipe app designed to inspire culinary creativity. Seamlessly search thousands of global dishes, from quick snacks to gourmet meals, powered by TheMealDB's comprehensive database. Discover step-by-step instructions, ingredient lists, and video tutorials for perfect results every time. The app features a clean, grid-based interface for browsing recipes, with intuitive filters for dietary preferences, cooking time, and difficulty. Cook, explore, and savor the joy of cooking with confidence!"
-              ghLink="https://github.com/nileshrawatp1/food-recipe-app"
-              demoLink="https://food-recipes-nilesh.vercel.app"
             />
           </Col>
 
