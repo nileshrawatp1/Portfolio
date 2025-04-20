@@ -5,14 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="index, follow">
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" type="image/png" sizes="48x48" />
+
+    <!-- Preconnect to important origins -->
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Progressive Web App Enhancements -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#000000" />
     <meta name="description"
         content="Nilesh Rawat Portfolio - Experienced Frontend Developer specializing in React, JavaScript, and responsive design. Proven track record in creating dynamic web applications, integrating frontend systems, and optimizing user experience. Explore my projects, skills, and career journey.">
     <meta name="keywords"
         content="Nilesh Rawat, Frontend Developer, Frontend Development, React, Bootstrap, ReactJS, PHP, JS, JavaScript, CSS, SCSS, Web Development, Responsive Design, UI/UX, Portfolio, API Integration, Web Accessibility, Git, Tailwind CSS, Material UI">
-    <meta name="author" content="Nilesh Rawat">
-
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>N!L3$H | Portfolio</title>
@@ -27,12 +35,55 @@
     <meta name="google-site-verification" content="_5xFWuihb79AsIc4ZyCP2MXZGW-UDBsCkU0MHMgGeYY" />
     <meta name="msvalidate.01" content="AB1E562F7C02B26F7678F5A371D63890" />
 
+    <!-- Enhanced Author Bio -->
+    <meta name="author"
+        content="Nilesh Rawat | Nilesh | nileshrawat | nileshrawatp1 | Software Engineer 3 at Cognizant |  Cognizant Frontend Tech Lead | React.js Expert | Microfrontends Specialist | Ex-Ameyo Senior Developer | TypeScript | GraphQL | Web Performance | React Specialist | Ex-Ameyo Frontend Developer | Ex-Exotel Frontend Developer | Javascript Specialist | Frontend Developer | UI Architect | Web Performance Optimizer | React Expert | JavaScript Expert | JS Expert | Frontend">
+    <meta name="classification"
+        content="Technology, Software Development, Web Development, Frontend Development, Knowledge Expert">
+    <meta name="designer" content="Nilesh Rawat | Nilesh | nileshrawat | nileshrawatp1">
+    <meta name="reply-to" content="nileshrawatp1@gmail.com">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- Geo-Region Tags -->
+    <meta name="geo.region" content="IN-HR">
+    <meta name="geo.placename" content="Faridabad">
+    <meta name="geo.position" content="28.41124000;77.31316000">
+
+    <!-- Enhanced Search Engine Tags -->
+    <meta itemprop="jobTitle"
+        content="Software Engineer | Software Engineer 2 | Software Engineer 3 | Frontend Tech Lead | Frontend Developer | JavaScript Expert | ReactJs Developer | React.Js Developer | React Specialist | UI Architect | JavaScript Expert | Web Performance Engineer | Web Developer">
+    <meta itemprop="affiliation" content="Cognizant Technology Solutions">
+    <meta itemprop="skills"
+        content="React, JavaScript, Frontend Architecture, System Design, Software Design, Redux, Nodejs">
+
+    <!-- Enhanced Open Graph -->
+    <!-- Core Identity -->
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:site_name"
+        content="Nilesh Rawat | Nilesh | Cognizant Frontend Portfolio | Ameyo Engineer Portfolio | Frontend Developer Portfolio | Software Engineer Portfolio">
+    <meta property="profile:username" content="nileshrawat">
+    <link rel="me" href="https://github.com/nileshrawatp1">
+    <link rel="me" href="https://linkedin.com/in/nileshrawat">
+    <link rel="me" href="https://instagram.com/itsnileshrawat">
+    <link rel="me" href="https://twitter.com/nileshrawatp1">
+    <meta property="profile:gender" content="male">
+
+    <!-- Professional Details -->
+    <meta property="profile:first_name" content="Nilesh">
+    <meta property="profile:last_name" content="Rawat">
+    <meta property="og:profile:company" content="Cognizant">
+    <meta property="og:profile:experience" content="Cognizant Technology Solutions">
+    <meta property="og:profile:position" content="Software Engineer 3">
+    <meta property="og:profile:start_date" content="2025-02-04">
+
+    <!-- Content Context -->
+    <meta property="profile:technology" content="React, Javascript, JavaScript, Microfrontends, Frontend">
+    <meta property="profile:skill_level" content="expert">
+
+
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://nileshrawat.vercel.app">
     <meta property="og:type" content="profile">
-    <meta property="profile:first_name" content="Nilesh">
-    <meta property="profile:last_name" content="Rawat">
-    <meta property="profile:gender" content="male">
     <meta property="og:title" content="N!L3$H | Portfolio">
     <meta property="og:description"
         content="Nilesh Rawat | Self Developed personal website. Explore my projects, skills, and career journey.">
@@ -45,15 +96,25 @@
         content="Nilesh Rawat | Self Developed personal website. Explore my projects, skills, and career journey.">
     <meta name="twitter:image" content="https://nileshrawat.vercel.app/images/readme-img.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="twitter:site" content="@nileshrawatp1">
+    <meta name="twitter:creator" content="@nileshrawatp1">
 
-    <!-- To ensure proper image display -->
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image:alt" content="Nilesh Rawat Portfolio Preview">
+    <!-- Tech Industry Specific -->
+    <meta name="news_keywords"
+        content="React Developer, ReactJs developer, react.Js Developer, javascript Developer, Frontend Development, React Ecosystem, Enterprise Software, Cognizant Solutions, Micro Services, Developer, Software Engineer, Software Engineer 2, Software Engineer 3">
 
-    <!-- Structured Data JSON-LD -->
-    <script type="application/ld+json">
+    <!-- Security Headers (Will need Vercel config support) -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+
+<!-- To ensure proper image display -->
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="Nilesh Rawat Portfolio Preview">
+
+<!-- Structured Data JSON-LD -->
+<script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "Person",
@@ -63,7 +124,20 @@
           "jobTitle": "Software Engineer 3",
           "worksFor": {
             "@type": "Organization",
-            "name": "Cognizant"
+            "name": "Cognizant",
+            "url": "https://www.cognizant.com",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cognizant_logo_2022.svg/512px-Cognizant_logo_2022.svg.png",
+            "sameAs": "https://www.linkedin.com/company/cognizant"
+          },
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Software Engineer",
+            "skills": ["React", "JavaScript", "Frontend Architecture"],
+            "responsibilities": "Developing enterprise-scale applications, Leading frontend initiatives, Technical mentorship"
+          },
+          "memberOf": {
+            "@type": "ProfessionalAssociation",
+            "name": "NASSCOM"
           },
           "sameAs": [
             "https://www.linkedin.com/in/nileshrawat",
