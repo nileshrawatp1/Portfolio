@@ -17,6 +17,8 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 
+import ZustandIcon from '../../Assets/zustand.svg'
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -25,20 +27,8 @@ function Techstack() {
         <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>JAVASCRIPT</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>NODE-JS</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
         <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>REACT</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaPhp />
-        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>PHP</div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>Mongo-DB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
@@ -47,6 +37,22 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
         <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>REDUX</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={ZustandIcon} alt="Zustand" style={{ width: "6rem", height: "6rem" }} />
+        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>ZUSTAND</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>NODE-JS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaPhp />
+        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>PHP</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+        <div style={{ fontSize: '0.6rem', color: 'rgb(155 126 172)' }}>Mongo-DB</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
