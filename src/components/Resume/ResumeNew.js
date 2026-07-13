@@ -54,7 +54,7 @@ function ResumeNew() {
                 </Row>
 
                 <Row className="resume justify-content-center">
-                    <div className="resume-pdf-container" style={{ maxWidth: "900px", width: "100%", textAlign: "center" }}>
+                    <div className="resume-pdf-container" style={{ maxWidth: "900px", width: width, textAlign: "center" }}>
                         <Document file={pdf}>
                             <div style={{ marginBottom: "5px" }}>
                                 <Page pageNumber={1} scale={scale} />

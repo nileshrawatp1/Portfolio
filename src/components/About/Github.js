@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 
 function Github() {
     const weekLabels = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
-    const year = new Date().getFullYear() - 1;
+    // const year = new Date().getFullYear() - 1;
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
